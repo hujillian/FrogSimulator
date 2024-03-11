@@ -17,4 +17,6 @@ public class Bug : MonoBehaviour
     {
         
     }
+
+    // make bugs move around randomly slowly within the bounds of the scene
 }
