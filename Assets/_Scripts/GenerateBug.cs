@@ -13,8 +13,8 @@ public class GenerateBug : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameStarted = true;
-        StartCoroutine(bugCreation());
+        gameStarted = true; // player has started game
+        StartCoroutine(bugCreation()); // start bug creation, which will keep running as long as player is playing
     }
 
     // Update is called once per frame
@@ -25,7 +25,10 @@ public class GenerateBug : MonoBehaviour
 
     private void spawnBug()
     {
-        GameObject b = Instantiate(bugPrefab) as GameObject;
+        // instantiate bug prefab
+        GameObject b = Instantiate(bugPrefab) as GameObject; 
+
+        // set a random spawn location for the bug within the bounds of the environment
         float x = UnityEngine.Random.Range(-25, 25);
         float y = UnityEngine.Random.Range(1, 15);
         float z = UnityEngine.Random.Range(-25, 25);
@@ -34,8 +37,10 @@ public class GenerateBug : MonoBehaviour
 
     IEnumerator bugCreation()
     {
+        // while the game is being played
         while (gameStarted)
         {
+            // wait respawn time (5 seconds) then spawn a new bug
             yield return new WaitForSeconds(respawnTime);
             spawnBug();
             Debug.Log("bug created");
