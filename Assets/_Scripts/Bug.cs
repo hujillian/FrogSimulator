@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Bug : MonoBehaviour
 {
-    private float moveSpeed = 0.08f;
-    private float rotSpeed = 0.1f;
+    [SerializeField] private float moveSpeed = 0.04f;
+    [SerializeField] private float rotSpeed = 0.1f;
     private Vector3 targetLocation = Vector3.zero;
     private Vector3 targetDirection = Vector3.zero;
     private bool reachedTarget = true;
