@@ -121,4 +121,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.04
-  rotSpeed: 0.1
+  rotSpeed: 0.05

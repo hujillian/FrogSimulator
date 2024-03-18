@@ -43,7 +43,6 @@ public class GenerateBug : MonoBehaviour
             // wait respawn time (5 seconds) then spawn a new bug
             yield return new WaitForSeconds(respawnTime);
             spawnBug();
-            Debug.Log("bug created");
         }
         
 

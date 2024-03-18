@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bug : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 0.04f;
-    [SerializeField] private float rotSpeed = 0.1f;
+    [SerializeField] private float rotSpeed = 0.05f;
     private Vector3 targetLocation = Vector3.zero;
     private Vector3 targetDirection = Vector3.zero;
     private bool reachedTarget = true;
@@ -30,17 +30,17 @@ public class Bug : MonoBehaviour
         }
         else
         {
-            // move towards the target location at the speed of speed
+            // move towards the target location at the speed of moveSpeed
             transform.position = Vector3.MoveTowards(transform.position, targetLocation, moveSpeed);
 
             // rotate towards target location
             Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, rotSpeed, 0.0f);
-            Debug.DrawRay(transform.position, newDirection, Color.red);
+            //Debug.DrawRay(transform.position, newDirection, Color.red);
             transform.rotation = Quaternion.LookRotation(newDirection);
         }
 
         // if bug has reached target, set reachedTarget to true
-        if(Vector3.Distance(transform.position, targetLocation) < 0.01f)
+        if(Vector3.Distance(transform.position, targetLocation) < 0.1f)
         {
             reachedTarget = true;
         }
