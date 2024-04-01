@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8521647499576624112}
   - component: {fileID: 7922116232193613939}
   - component: {fileID: 1200455465190317508}
+  - component: {fileID: 1515189581524053613}
   m_Layer: 0
   m_Name: lotus
   m_TagString: Untagged
@@ -31,8 +32,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 11.90639, y: 11.90639, z: 11.90639}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7811117628301339692}
   m_Father: {fileID: 0}
@@ -106,8 +107,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.21871084, y: 0.13199627, z: 0.20882986}
-  m_Center: {x: 0.0004465847, y: 0.057272352, z: -0.0040787947}
+  m_Size: {x: 0.11819039, y: 0.13199627, z: 0.17846474}
+  m_Center: {x: 0.003444627, y: 0.057272352, z: -0.0017898977}
 --- !u!54 &7922116232193613939
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -331,6 +332,27 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!65 &1515189581524053613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4262840120114707166}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.19678013, y: 0.13199627, z: 0.09604697}
+  m_Center: {x: -0.00096244365, y: 0.057272352, z: 0.0041382015}
 --- !u!1 &5069161987039507832
 GameObject:
   m_ObjectHideFlags: 0
