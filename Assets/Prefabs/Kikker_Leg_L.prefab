@@ -10,27 +10,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
       propertyPath: m_LocalScale.x
-      value: -4.835585
+      value: -3.9807506
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.8355846
+      value: 3.98075
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4.8355846
+      value: 3.98075
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.35371932
+      value: 0.29936
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.33186647
+      value: -0.28
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.383
+      value: -0.359
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
       propertyPath: m_LocalRotation.w
@@ -60,9 +60,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
       propertyPath: m_Name
       value: Kikker_Leg_L
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 79c632ca7bb9a7e498784e198072c748, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

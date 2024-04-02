@@ -21899,7 +21899,7 @@ GameObject:
   - component: {fileID: 1555995949}
   - component: {fileID: 1555995955}
   - component: {fileID: 1555995954}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Left Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25770,7 +25770,7 @@ GameObject:
   - component: {fileID: 1814443090}
   - component: {fileID: 1814443095}
   - component: {fileID: 1814443096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Right Controller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27821,7 +27821,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 31
+    m_Bits: 159
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
