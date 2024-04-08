@@ -17,3 +17,9 @@
 "Stylized Bush (V1)" (https://skfb.ly/6WM9W) by SangeetBlaze is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
 "Rock Low Poly" (https://skfb.ly/oN6or) by Landen_S is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+Tutorial for making a mirror: https://vintay.medium.com/creating-a-mirror-in-unity-basic-version-ec5a09013573
+
+
+SOUNDS:
+Sound Effect from Pixabay: https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6735
