@@ -6,7 +6,7 @@ using UnityEngine;
 public class GenerateBug : MonoBehaviour
 {
     public GameObject bugPrefab;
-    private float respawnTime = 15.0f;
+    private float respawnTime = 20.0f;
     private Vector3 screenBounds;
     public bool gameStarted; // move this to another script probably later
 

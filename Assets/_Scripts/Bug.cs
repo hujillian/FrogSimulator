@@ -24,7 +24,7 @@ public class Bug : MonoBehaviour
         if (reachedTarget)
         {
             // create a random target location within the bounds of the environment
-            targetLocation = new Vector3(Random.Range(-25, 25), Random.Range(1, 15), Random.Range(-25, 25));
+            targetLocation = new Vector3(Random.Range(-45, 45), Random.Range(1, 15), Random.Range(-45, 45));
             targetDirection = targetLocation - transform.position;
             reachedTarget = false;
         }
