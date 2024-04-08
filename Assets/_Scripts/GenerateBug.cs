@@ -6,7 +6,7 @@ using UnityEngine;
 public class GenerateBug : MonoBehaviour
 {
     public GameObject bugPrefab;
-    private float respawnTime = 5.0f;
+    private float respawnTime = 15.0f;
     private Vector3 screenBounds;
     public bool gameStarted; // move this to another script probably later
 
@@ -40,7 +40,7 @@ public class GenerateBug : MonoBehaviour
         // while the game is being played
         while (gameStarted)
         {
-            // wait respawn time (5 seconds) then spawn a new bug
+            // wait respawn time (15 seconds) then spawn a new bug
             yield return new WaitForSeconds(respawnTime);
             spawnBug();
         }

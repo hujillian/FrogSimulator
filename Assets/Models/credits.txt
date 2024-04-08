@@ -18,6 +18,10 @@
 
 "Rock Low Poly" (https://skfb.ly/oN6or) by Landen_S is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
+"UE5 Daisy test" (https://skfb.ly/oITEX) by Thunder is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
+"Low-poly Moth" (https://skfb.ly/6R8rn) by Alice Ursu is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+
 Tutorial for making a mirror: https://vintay.medium.com/creating-a-mirror-in-unity-basic-version-ec5a09013573
 
 
